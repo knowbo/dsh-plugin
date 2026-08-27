@@ -1,12 +1,10 @@
 # DeepSeek Harness (DSH) 插件实操手册 · 中文版
 
-> 把「能装的插件」变成「能照着做的教程」。一份面向中文用户的 DSH 插件上手、选型与排错指南。
-> 配套索引：[awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)（官方精选列表，收录 300+ 插件）
+> 把「能装的插件」变成「能照着做的教程」。一份面向中文用户的 DSH 插件上手、选型与排错指南，由社区共建维护。
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![语言：简体中文](https://img.shields.io/badge/语言-简体中文-blue.svg)](https://www.workbuddy.cn)
 [![许可：CC0](https://img.shields.io/badge/license-CC0-green.svg)](./LICENSE)
-[![DSH 插件数量](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/awesome-dsh-plugin/awesome-dsh-plugin/main/badges/plugins.json&label=%E7%94%9F%E6%80%81%E6%8F%92%E4%BB%B6)](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)
+[![收录插件](https://img.shields.io/badge/收录插件-100%2B-brightgreen.svg)](./README.md)
 
 ---
 
@@ -14,7 +12,7 @@
 
 [DeepSeek Harness（简称 `dsh`）](https://github.com/deepseek-ai/DeepSeek-Harness) 是深度求索开源的 agent harness：它既是一个可直接运行的 Coding Agent（Web / headless 两种形态），底层又是一套「**一切皆插件**」的框架——模型、工具、沙箱、会话存储、UI、甚至 Agent Loop 本身都是插件。
 
-**本手册的目标**：原版 awesome 列表只告诉你「有哪些插件」，而这份文档告诉你「**我想要 X 能力，该装哪个、怎么装、踩过什么坑**」。它按「需求场景」而不是「官方分类」来组织，更适合新手直接照搬。
+**本手册的目标**：不只罗列「有哪些插件」，而是告诉你「**我想要 X 能力，该装哪个、怎么装、踩过什么坑**」。它按「需求场景」而不是「官方分类」来组织，更适合新手直接照搬。
 
 > ⚠️ 安全警告：安装插件等于在机器上运行第三方代码，权限与你自己一样大。安装前务必看一眼源码；不熟的插件请先在**无密钥环境**试用。
 
@@ -64,7 +62,7 @@ dsh plugin --profile web add omdsh-dev/dsh-at-file
 dsh plugin --profile web add dsh-find-plugin
 ```
 
-> 收录标准：只要插件声明了 `dsh.bundle` manifest、能通过 `dsh plugin add` 安装，即可被 awesome 列表收录。来源客户端无关。
+> 收录标准：只要插件声明了 `dsh.bundle` manifest、能通过 `dsh plugin add` 安装，即可被本手册收录。来源客户端无关。
 
 ---
 
@@ -209,7 +207,7 @@ dsh plugin --profile web add dsh-find-plugin
 
 ## 全分类速览
 
-原 awesome 列表按 22 个官方分类组织（详见 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin)）。下表是导航地图，括号内为每类的代表插件（部分来自已采集数据）：
+DSH 生态目前大致按 22 个官方分类组织。下表是导航地图，括号内为每类的代表插件（部分来自已采集数据）：
 
 | 分类 | 关注点 | 代表插件 |
 |------|--------|----------|
@@ -217,26 +215,26 @@ dsh plugin --profile web add dsh-find-plugin
 | 🎨 UI 增强 | 界面/布局/交互 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
 | 💰 用量与计费 | 余额/成本 | [GeekRicardo/dsh-balance](https://github.com/GeekRicardo/dsh-balance) |
 | 🎭 主题与外观 | 皮肤/壁纸 | [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) |
-| 🔌 模型与账号接入 | 模型/Provider | （见 awesome 列表） |
-| 🆔 身份与通信 | 账号/IM 接入 | （见 awesome 列表） |
+| 🔌 模型与账号接入 | 模型/Provider | （待补充，欢迎共建） |
+| 🆔 身份与通信 | 账号/IM 接入 | （待补充，欢迎共建） |
 | 💬 会话与消息 | 会话管理 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) |
 | 🧠 记忆 | 长期记忆 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) |
-| 🛠️ 工具与能力 | 能力扩展 | （见 awesome 列表） |
-| 🌐 浏览器与网页 | 网页交互 | （见 awesome 列表） |
+| 🛠️ 工具与能力 | 能力扩展 | （待补充，欢迎共建） |
+| 🌐 浏览器与网页 | 网页交互 | （待补充，欢迎共建） |
 | 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) |
-| 🎙️ 语音与音频 | 语音输入 | （见 awesome 列表） |
+| 🎙️ 语音与音频 | 语音输入 | （待补充，欢迎共建） |
 | 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) |
 | 🧩 技能包 | Skill | [lcthe/dsh-skills-hub](https://github.com/lcthe/dsh-skills-hub) |
 | 🔁 工作流与自动化 | 定时/重复 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) |
 | 🔀 Git 与代码评审 | Git | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) |
 | 🔔 通知与集成 | 提醒/推送 | [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) |
-| 🧑‍💻 开发与运行时 | 开发/运行时 | （见 awesome 列表） |
-| 🔒 安全与权限 | 权限/审计 | （见 awesome 列表） |
+| 🧑‍💻 开发与运行时 | 开发/运行时 | （待补充，欢迎共建） |
+| 🔒 安全与权限 | 权限/审计 | （待补充，欢迎共建） |
 | 📱 远程与移动端 | 移动/远程 | [TecFancy/dsh-mobile](https://github.com/TecFancy/dsh-mobile) |
 | 🛒 插件市场与管理 | 市场/管理 | [dsh-market](https://github.com/dsh-market/dsh-market) |
 | 🎮 娱乐 | 趣味 | [cookiesheep/whale-on-desk](https://github.com/cookiesheep/whale-on-desk) |
 
-> 未在此表展开的分类（带「见 awesome 列表」）的插件条目以官方列表为准。本手册聚焦「能直接照做的精选」，完整索引请回看原列表。
+> 上表中标注「待补充，欢迎共建」的分类，代表插件暂未收入本手册——欢迎在 Issue/PR 里补充你用过的同类插件，让它更完整。
 
 ---
 
@@ -244,7 +242,7 @@ dsh plugin --profile web add dsh-find-plugin
 
 - 安装插件 = 运行第三方代码，权限与你的用户相同。**装前看源码**。
 - 不熟悉的插件，先在**无密钥环境**（无生产凭据）试用。
-- 不要求「排名」：官方 awesome 列表不做优劣评判，只验证可安装性与描述一致性。
+- 不做优劣「排名」：本手册以「可安装、描述一致、场景有用」为收录标准，不替你评判插件好坏。
 - 所有插件均为社区维护，风险自负。
 
 ---
@@ -271,23 +269,23 @@ dsh plugin --profile web add dsh-find-plugin
 
 这份手册靠社区变大。欢迎：
 
-1. **推荐插件**：在 [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) 提交 PR（每个插件一个 YAML，详见其 `contributing`）。
+1. **推荐插件**：在**本仓库**提交 PR，按现有表格格式补充插件（仓库链接 + 一句话用途 + 安装命令）。
 2. **补充场景**：在本仓库提 Issue / PR，把「我要做 X → 装 Y」的经验写进对应章节。
 3. **纠错**：发现失效链接、过时命令，直接提 PR。
 
-> 想让任务定期跑？可以让我在这个工作区里配置一个「每周同步 awesome 列表更新」的自动化，保持本手册与生态同步。
+> 想让手册保持新鲜？可以配置一个周期性自动化，定期扫描各插件仓库的更新与失效链接。
 
 ---
 
 ## 给仓库的 SEO / 引流建议（让你更容易被搜到）
 
-- **GitHub Topics**：`deepseek-harness`、`dsh`、`dsh-plugin`、`deepseek`、`插件`、`ai-agent`、`awesome`
+- **GitHub Topics**：`deepseek-harness`、`dsh`、`dsh-plugin`、`deepseek`、`插件`、`ai-agent`、`plugin-guide`
 - **仓库名**（建议）：`dsh-plugin-handbook` 或 `deepseek-harness-plugins-zh`
 - **一句话定位**：「中文优先的 DeepSeek Harness 插件实操手册：按场景选插件、照着装、避坑」
-- 在 README 顶部保留 shields 徽章与「返回 awesome 列表」的双向链接，承接其流量。
+- 在 README 顶部保留 shields 徽章与清晰的「按场景选插件」导航，降低新手上手门槛。
 
 ---
 
 ## License
 
-本手册以 **CC0 1.0** 发布（与上游 awesome 列表一致），可自由转载与派生。
+本手册以 **CC0 1.0** 发布，可自由转载与派生。
