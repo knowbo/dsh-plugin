@@ -4,7 +4,7 @@
 
 [![语言：简体中文](https://img.shields.io/badge/语言-简体中文-blue.svg)](https://www.workbuddy.cn)
 [![许可：CC0](https://img.shields.io/badge/license-CC0-green.svg)](./LICENSE)
-[![收录插件](https://img.shields.io/badge/收录插件-80%2B-brightgreen.svg)](./README.md)
+[![收录插件](https://img.shields.io/badge/收录插件-90%2B-brightgreen.svg)](./README.md)
 
 ---
 
@@ -36,8 +36,7 @@
 DSH 目前以 Web UI 为主。官方推荐用桌面壳套一个原生窗口：
 
 - [dataelement/dsh-desktop](https://github.com/dataelement/dsh-desktop)
-- [hairyf/deepseek-harness-desktop](https://github.com/hairyf/deepseek-harness-desktop)
-- [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop)
+- [anywhere-labs/dsh-desktop](https://github.com/anywhere-labs/dsh-desktop)
 
 ### 2. 安装插件（两种姿势）
 
@@ -53,7 +52,7 @@ dsh plugin --profile web add dshmarket
 
 ```sh
 # 通用语法：dsh plugin add <owner/repo>
-dsh plugin --profile web add omdsh-dev/dsh-at-file
+dsh plugin --profile web add FSMargoo/dsh-at-file
 ```
 
 **找插件神器**（可选，装上后直接问 Agent「我想要 X 插件」）：
@@ -100,9 +99,9 @@ dsh plugin --profile web add dsh-find-plugin
 
 | 需求 | 插件 | 说明 |
 |------|------|------|
-| `@file` 文件引用 | [omdsh-dev/dsh-at-file](https://github.com/omdsh-dev/dsh-at-file) | Codex 风格，搜索并引用工作区文件 |
+| `@file` 文件引用 | [FSMargoo/dsh-at-file](https://github.com/FSMargoo/dsh-at-file) | Codex 风格，搜索并引用工作区文件 |
 | 任意文件 @ 提及 | [hatsuyuki0103/dsh-at-any](https://github.com/hatsuyuki0103/dsh-at-any) | 覆盖所有格式，无索引上限 |
-| 拖拽上传 | [GLFzr/dsh-drop-file-to-path](https://github.com/GLFzr/dsh-drop-file-to-path) | 拖入即存 `~/.dsh-dropbox` 并插路径 |
+| 拖拽上传 | [GLFzr/dsh-file-upload](https://github.com/GLFzr/dsh-file-upload) | 拖入即存 `~/.dsh-dropbox` 并插路径 |
 | DS 同款附件 | [wqx-txdsyl/dsh-ds-attach](https://github.com/wqx-txdsyl/dsh-ds-attach) | chat.deepseek.com 风格彩色附件卡片 |
 | 附件卡片与历史 | [WJZ-P/dsh-attachments](https://github.com/WJZ-P/dsh-attachments) | 拖放附件 + 持久化历史 |
 
@@ -114,6 +113,7 @@ dsh plugin --profile web add dsh-find-plugin
 | IDE 工作台 | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) | 三栏、Monaco 编辑、Git 面板 |
 | VS Code 编辑器 | [yangshen830-eng/dsh-editor](https://github.com/yangshen830-eng/dsh-editor) | 文件树 + Monaco + 差异 |
 | 工作区浏览器 | [Jiyr0119/dsh-workspace-explorer](https://github.com/Jiyr0119/dsh-workspace-explorer) | 动画弹窗 + 搜索 + 中英双语 |
+| 文件管理器 | [joejojoking-cloud/dsh-file-explorer](https://github.com/joejojoking-cloud/dsh-file-explorer) | 文件树 + 预览 + Markdown + 语法高亮 + 面板内编辑 |
 
 ### 🖥️ 终端
 
@@ -227,21 +227,21 @@ DSH 生态目前大致按 22 个官方分类组织。下表是导航地图，括
 | 🎨 UI 增强 | 界面/布局/交互 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) |
 | 💰 用量与计费 | 余额/成本 | [GeekRicardo/dsh-balance](https://github.com/GeekRicardo/dsh-balance) |
 | 🎭 主题与外观 | 皮肤/壁纸 | [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) |
-| 🔌 模型与账号接入 | 模型/Provider | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) |
+| 🔌 模型与账号接入 | 模型/Provider | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) · [wss534857356/dsh-plugin-codex](https://github.com/wss534857356/dsh-plugin-codex) |
 | 🆔 身份与通信 | 账号/IM 接入 | [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) |
-| 💬 会话与消息 | 会话管理 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) |
+| 💬 会话与消息 | 会话管理 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) · [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) |
 | 🧠 记忆 | 长期记忆 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) |
 | 🛠️ 工具与能力 | 能力扩展 | （待补充，欢迎共建） |
-| 🌐 浏览器与网页 | 网页交互 | （待补充，欢迎共建） |
-| 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) |
+| 🌐 浏览器与网页 | 网页交互 | [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) |
+| 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) · [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
 | 🎙️ 语音与音频 | 语音输入 | [qishuilalala/dsh-voice-mode](https://github.com/qishuilalala/dsh-voice-mode) |
-| 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) |
+| 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) · [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) |
 | 🧩 技能包 | Skill | [lcthe/dsh-skills-hub](https://github.com/lcthe/dsh-skills-hub) |
 | 🔁 工作流与自动化 | 定时/重复 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) |
 | 🔀 Git 与代码评审 | Git | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) |
 | 🔔 通知与集成 | 提醒/推送 | [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) |
 | 🧑‍💻 开发与运行时 | 开发/运行时 | （待补充，欢迎共建） |
-| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) |
+| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) · [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) |
 | 📱 远程与移动端 | 移动/远程 | [TecFancy/dsh-mobile](https://github.com/TecFancy/dsh-mobile) |
 | 🛒 插件市场与管理 | 市场/管理 | [dsh-market](https://github.com/dsh-market/dsh-market) · [dshfind](https://github.com/hikariming/dshfind) |
 | 🎮 娱乐 | 趣味 | [cookiesheep/whale-on-desk](https://github.com/cookiesheep/whale-on-desk) |
