@@ -4,7 +4,7 @@
 
 [![语言：简体中文](https://img.shields.io/badge/语言-简体中文-blue.svg)](https://www.workbuddy.cn)
 [![许可：CC0](https://img.shields.io/badge/license-CC0-green.svg)](./LICENSE)
-[![收录插件](https://img.shields.io/badge/收录插件-90%2B-brightgreen.svg)](./README.md)
+[![收录插件](https://img.shields.io/badge/收录插件-100%2B-brightgreen.svg)](./README.md)
 
 ---
 
@@ -83,6 +83,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 字体引擎 | [warmwine/dsh-ui-font](https://github.com/warmwine/dsh-ui-font) | 全局/逐组件字号微调，老花眼友好 |
 | 节点着色 | [Max-Null/dsh-node-appearance](https://github.com/Max-Null/dsh-node-appearance) | 按工具/类别给会话节点上色 |
 | 皮肤主题 | [caoyiwei850/dsh-client-ui-skins](https://github.com/caoyiwei850/dsh-client-ui-skins) | DSH Web 皮肤插件：内置多套主题 + 自定义图片皮肤 |
+| 鲸鱼角色皮肤 | [Small-tailqwq/dsh-deep-whale](https://github.com/Small-tailqwq/dsh-deep-whale) | Deep Whale 女仆 Atelier 鲸鱼角色皮肤，重做 Web 视觉 |
 
 ### 💰 余额 / 用量 / 计费（涨→红、跌→绿，遵循 A 股习惯）
 
@@ -104,6 +105,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 拖拽上传 | [GLFzr/dsh-file-upload](https://github.com/GLFzr/dsh-file-upload) | 拖入即存 `~/.dsh-dropbox` 并插路径 |
 | DS 同款附件 | [wqx-txdsyl/dsh-ds-attach](https://github.com/wqx-txdsyl/dsh-ds-attach) | chat.deepseek.com 风格彩色附件卡片 |
 | 附件卡片与历史 | [WJZ-P/dsh-attachments](https://github.com/WJZ-P/dsh-attachments) | 拖放附件 + 持久化历史 |
+| 粘贴 / 拖拽增强 | [omdsh-dev/dsh-paste-input](https://github.com/omdsh-dev/dsh-paste-input) | Ctrl+V 粘贴 + 拖拽 + 选择文件，发送时进会话临时目录 |
 
 ### 🗂️ 文件树 / 编辑器 / 工作台（类 IDE）
 
@@ -114,6 +116,8 @@ dsh plugin --profile web add dsh-find-plugin
 | VS Code 编辑器 | [yangshen830-eng/dsh-editor](https://github.com/yangshen830-eng/dsh-editor) | 文件树 + Monaco + 差异 |
 | 工作区浏览器 | [Jiyr0119/dsh-workspace-explorer](https://github.com/Jiyr0119/dsh-workspace-explorer) | 动画弹窗 + 搜索 + 中英双语 |
 | 文件管理器 | [joejojoking-cloud/dsh-file-explorer](https://github.com/joejojoking-cloud/dsh-file-explorer) | 文件树 + 预览 + Markdown + 语法高亮 + 面板内编辑 |
+| JetBrains IDE 集成 | [JayZz210l/deepseek-harness-for-ide](https://github.com/JayZz210l/deepseek-harness-for-ide) | 把 DSH 搬进 JetBrains IDE：对话 / 工具审批 / 子代理 |
+| Zed ACP 桥接 | [grunmin/dsh-acp-enhanced](https://github.com/grunmin/dsh-acp-enhanced) | Zed 编辑器 ACP 服务，块级流式 + 用量统计 |
 
 ### 🖥️ 终端
 
@@ -154,6 +158,8 @@ dsh plugin --profile web add dsh-find-plugin
 | 上下文洞察与管理 | [bowenliang123/dsh-context](https://github.com/bowenliang123/dsh-context) | 上下文用量洞察、压缩与回收建议 |
 | 对话回退 | [SiriLee/dsh-rewind](https://github.com/SiriLee/dsh-rewind) | 同窗口内对话回退不新建分支；轻量工作区备份可一并还原文件 |
 | 文献知识库 RAG | [Breeze136/dsh-kb-rag](https://github.com/Breeze136/dsh-kb-rag) | 本地优先 RAG：混合检索正文与图注，定位段落/图表，DOI 直达 |
+| 上下文 Token 审计 | [Zhenyu98/dsh-context-doctor](https://github.com/Zhenyu98/dsh-context-doctor) | 审计系统提示 / 技能 / 工具 schema 的 token 成本，圆环面板 |
+| 注意力监督 | [Oscar-Williams/dsh-deepcanary](https://github.com/Oscar-Williams/dsh-deepcanary) | 证据优先信号 + 安静通知 + 可处理收件箱 |
 
 ### ✨ 提示词优化 / 润色
 
@@ -162,6 +168,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 一键优化 | [winditer/dsh-prompt-optimizer](https://github.com/winditer/dsh-prompt-optimizer) | Alt+O，复用当前模型流式改写 |
 | 前后对比 | [SongMiao-tech/dsh-prompt-optimizer](https://github.com/SongMiao-tech/dsh-prompt-optimizer) | 弹窗对比、一键替换 |
 | 草稿增强 | [LCQ-1024/dsh-prompt-enhancer](https://github.com/LCQ-1024/dsh-prompt-enhancer) | 改写为可执行 prompt |
+| 优化器移植版 | [zhang-jiazhi/dsh-prompt-optimizer](https://github.com/zhang-jiazhi/dsh-prompt-optimizer) | 移植 linshenkx prompt-optimizer 到 DSH（非官方） |
 
 ### 🧭 导航 / 大纲 / 跳转（长会话必备）
 
@@ -169,7 +176,7 @@ dsh plugin --profile web add dsh-find-plugin
 |------|------|------|
 | 对话地图 | [GeekRicardo/dsh-convmap](https://github.com/GeekRicardo/dsh-convmap) | 左缘刻度 + 全量导航 |
 | 画卷式导轨 | [Max-Null/dsh-chat-rail](https://github.com/Max-Null/dsh-chat-rail) | 右侧竖排导轨，scroll-spy |
-| 实时大纲 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) | Markdown 标题树 + 搜索 |
+| ~~实时大纲（已失效）~~ | ~~[urzeye/dsh-outline](https://github.com/urzeye/dsh-outline)~~ | 仓库已 404，可改用 [GeekRicardo/dsh-convmap](https://github.com/GeekRicardo/dsh-convmap) 等导航类插件 |
 | 提问索引 | [lijinhao315/dsh-question-index](https://github.com/lijinhao315/dsh-question-index) | 右侧你提过的问题列表 |
 
 ### ⌨️ 终端 TUI / 全屏界面
@@ -190,6 +197,9 @@ dsh plugin --profile web add dsh-find-plugin
 | 桌面级桌宠 | [cookiesheep/whale-on-desk](https://github.com/cookiesheep/whale-on-desk) | 29 帧状态，盖得住全屏 |
 | 像素办公室 | [EternalNight996/dsh-ui-agents-pixe](https://github.com/EternalNight996/dsh-ui-agents-pixe) | 508 张角色卡 |
 | Codex 桌宠迁移 | [mengyun233/dsh-codex-pet](https://github.com/mengyun233/dsh-codex-pet) | 毛玻璃对话框 + 设置面板 |
+| 像素鲸鱼伙伴 | [omdsh-dev/dsh-ui-whale](https://github.com/omdsh-dev/dsh-ui-whale) | 标题栏常驻像素鲸鱼，眨眼 / 摆尾 / 喷水 / 偷懒睡觉 |
+| 复古广告面板 | [Nagi-ovo/dsh-ads](https://github.com/Nagi-ovo/dsh-ads) | 横幅 / 弹窗 / 小游戏，复刻早期门户页风格 |
+| 小游戏面板 | [omdsh-dev/dsh-minigames](https://github.com/omdsh-dev/dsh-minigames) | 右侧 18 款离线小游戏（俄罗斯方块 / 扫雷 / 2048 等） |
 
 ### 📈 行情 / 股票（A 股红涨绿跌）
 
@@ -214,6 +224,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 任务看板 | [1070296335-create/dph-taskboard](https://github.com/1070296335-create/dph-taskboard) | 待办/进行中/评审/完成 四列 |
 | 定时任务 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) | 每日/每周/一次性日程 |
 | 技能卡组 | [FeatherHunter/dsh-mattpocock-skills-deck](https://github.com/FeatherHunter/dsh-mattpocock-skills-deck) | 把 mattpocock/skills 引入 DSH，看得见、派得动的技能卡组 |
+| 多智能体团队 | [nanmicoder/dsh-agent-teams](https://github.com/nanmicoder/dsh-agent-teams) | 自然语言拉多智能体团队，右上角实时活动面板 |
 
 ---
 
@@ -229,19 +240,19 @@ DSH 生态目前大致按 22 个官方分类组织。下表是导航地图，括
 | 🎭 主题与外观 | 皮肤/壁纸 | [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) |
 | 🔌 模型与账号接入 | 模型/Provider | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) · [wss534857356/dsh-plugin-codex](https://github.com/wss534857356/dsh-plugin-codex) |
 | 🆔 身份与通信 | 账号/IM 接入 | [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) |
-| 💬 会话与消息 | 会话管理 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) · [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) |
+| 💬 会话与消息 | 会话管理 | ~~[urzeye/dsh-outline](https://github.com/urzeye/dsh-outline)~~（已失效） · [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) |
 | 🧠 记忆 | 长期记忆 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) |
-| 🛠️ 工具与能力 | 能力扩展 | （待补充，欢迎共建） |
+| 🛠️ 工具与能力 | 能力扩展 | [superdesigndev/treg](https://github.com/superdesigndev/treg) · [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) |
 | 🌐 浏览器与网页 | 网页交互 | [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) |
-| 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) · [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) |
+| 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) · [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) · [liustack/modlens](https://github.com/liustack/modlens) · [anionex/dsh-vision-toolkit](https://github.com/anionex/dsh-vision-toolkit) · [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) |
 | 🎙️ 语音与音频 | 语音输入 | [qishuilalala/dsh-voice-mode](https://github.com/qishuilalala/dsh-voice-mode) |
 | 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) · [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) |
 | 🧩 技能包 | Skill | [lcthe/dsh-skills-hub](https://github.com/lcthe/dsh-skills-hub) |
 | 🔁 工作流与自动化 | 定时/重复 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) |
 | 🔀 Git 与代码评审 | Git | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) |
 | 🔔 通知与集成 | 提醒/推送 | [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) |
-| 🧑‍💻 开发与运行时 | 开发/运行时 | （待补充，欢迎共建） |
-| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) · [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) |
+| 🧑‍💻 开发与运行时 | 开发/运行时 | [tt-a1i/archify](https://github.com/tt-a1i/archify) · [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) |
+| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) · [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) · [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) |
 | 📱 远程与移动端 | 移动/远程 | [TecFancy/dsh-mobile](https://github.com/TecFancy/dsh-mobile) |
 | 🛒 插件市场与管理 | 市场/管理 | [dsh-market](https://github.com/dsh-market/dsh-market) · [dshfind](https://github.com/hikariming/dshfind) |
 | 🎮 娱乐 | 趣味 | [cookiesheep/whale-on-desk](https://github.com/cookiesheep/whale-on-desk) |
