@@ -4,7 +4,7 @@
 
 [![语言：简体中文](https://img.shields.io/badge/语言-简体中文-blue.svg)](https://www.workbuddy.cn)
 [![许可：CC0](https://img.shields.io/badge/license-CC0-green.svg)](./LICENSE)
-[![收录插件](https://img.shields.io/badge/收录插件-220%2B-brightgreen.svg)](./README.md)
+[![收录插件](https://img.shields.io/badge/收录插件-280%2B-brightgreen.svg)](./README.md)
 
 ---
 
@@ -99,6 +99,9 @@ dsh plugin --profile web add dsh-find-plugin
 | 多套换肤主题包 | [RevolutionLA/dsh-dream-skin](https://github.com/RevolutionLA/dsh-dream-skin) | 8 套 iOS/Linear 式清透冷调主题 + 弥散光壁纸 + 每用户强调色 + 主题包分享，纯原生 token 系统，支持 DSH Desktop |
 | 工业风主题 | [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield) | 终末地官网风 DSH Web 主题：奶油纸底、墨黑字、信号黄强调、全直角工业编辑风 |
 | 动画电影主题 | [niiang/dsh-kimino-theme](https://github.com/niiang/dsh-kimino-theme) | Kimi no Na wa（你的名字）风格 DSH Web 主题，含壁纸/Logo 资源 |
+| 字体微调 | [LyaxZ/dsh-fonttune](https://github.com/LyaxZ/dsh-fonttune) | 字体微调：对话独立字体/字号/行高/字重，可存预设方案 |
+| Claude 主题 | [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) | Claude Code 桌面主题（网页 GUI） |
+| mpkg 壁纸 | [XHR666/dsh-mpkg-wallpaper](https://github.com/XHR666/dsh-mpkg-wallpaper) | 把 Wallpaper Engine .mpkg / Steam 工坊当 DSH 网页背景 |
 
 ### 💰 余额 / 用量 / 计费（涨→红、跌→绿，遵循 A 股习惯）
 
@@ -115,6 +118,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 多厂商余额挂件 | [andregoncalves/dsh-balance](https://github.com/andregoncalves/dsh-balance) | DeepSeek/OpenRouter/Kimi/智谱/MiniMax 等余额，轻量零依赖、不补丁核心 |
 | 对话底部费用明细 | [david0702/dsh-cost](https://github.com/david0702/dsh-cost) | 按每笔请求时间+模型分批计费，分时段明细、模型归属、读图金额与账户余额 |
 | 用量计费仪表盘 | [kenz1117/dsh-ui-usage-billing](https://github.com/kenz1117/dsh-ui-usage-billing) | 侧栏成本指标、会话日志真实用量聚合、多厂商价目目录 |
+| Token 面板 | [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) | Token 用量与花费面板：今日消费/预算/成本构成/缓存命中 |
 
 ### 📎 文件上传 / 拖拽 / `@file` 引用
 
@@ -126,6 +130,7 @@ dsh plugin --profile web add dsh-find-plugin
 | DS 同款附件 | [wqx-txdsyl/dsh-ds-attach](https://github.com/wqx-txdsyl/dsh-ds-attach) | chat.deepseek.com 风格彩色附件卡片 |
 | 附件卡片与历史 | [WJZ-P/dsh-attachments](https://github.com/WJZ-P/dsh-attachments) | 拖放附件 + 持久化历史 |
 | 粘贴 / 拖拽增强 | [omdsh-dev/dsh-paste-input](https://github.com/omdsh-dev/dsh-paste-input) | Ctrl+V 粘贴 + 拖拽 + 选择文件，发送时进会话临时目录 |
+| 收件箱 | [Chance722/dsh-inbox](https://github.com/Chance722/dsh-inbox) | 把复制粘贴的链接/图片/文本/账密收进本地仓库自动分类，可在对话里检索取回 |
 
 ### 🗂️ 文件树 / 编辑器 / 工作台（类 IDE）
 
@@ -145,6 +150,7 @@ dsh plugin --profile web add dsh-find-plugin
 | Codex 风侧栏工作台 | [MichengAI/dsh-codex-ui](https://github.com/MichengAI/dsh-codex-ui) | Codex 风格侧栏、工作区会话树、全局搜索、轮次导航 |
 | WSL 工作区 | [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) | 从 Web GUI 添加 WSL 工作区，整段 agent 会话跑在 WSL 内（VS Code Remote-WSL 式），WSL 内免装工具链 |
 | 配置备份迁移 | [xiajiajun516/dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) | DSH 配置一键备份/恢复/导出/导入/迁移与同步（设置/插件/MCP/技能/预设/工作区），一键迁移到另一台机器 |
+| IDE Git 窗口 | [KannaKuron/dsh-ide-git](https://github.com/KannaKuron/dsh-ide-git) | IDE 级 Git 工具窗口（dsh-better-sidebar 原生 tab）：分支树等 |
 
 ### 🖥️ 终端
 
@@ -201,6 +207,20 @@ dsh plugin --profile web add dsh-find-plugin
 | 主动联想记忆 | [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) | 零提示自动唤回、三层自动沉淀、技能固化、Astra 式上下文管理与跨窗口续命 |
 | Obsidian 知识库同步 | [Dingpenghui-good/dsh-obsidian-sync](https://github.com/Dingpenghui-good/dsh-obsidian-sync) | 按需检索 Obsidian 知识库 + 按 PARA 规则归档 DSH 会话（零 token 注入） |
 | 跨会话记忆 | [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) | 有界/分层/审批门控/可审计的跨会话记忆 |
+| 工程记忆 | [00080000/dsh-project-memory](https://github.com/00080000/dsh-project-memory) | 按项目持久化的读取时工程记忆插件 |
+| 陪伴记忆 | [AkinoHaruka/companion-memory](https://github.com/AkinoHaruka/companion-memory) | 原生作用域 Riko 记忆插件 |
+| 观察记忆 | [EPCN-fla/dsh-observational-memory](https://github.com/EPCN-fla/dsh-observational-memory) | 观察记忆：后台观察者把会话工作蒸馏为记忆 |
+| 长期记忆 | [Fishsb/dsh-shoucang-memory](https://github.com/Fishsb/dsh-shoucang-memory) | 守藏·长期记忆：会话蒸馏沉淀 + 深度睡眠反思 + 词法/向量混合召回 + 主动遗忘 |
+| 知识库 RAG | [Soren-ABT/dsh-knowledge](https://github.com/Soren-ABT/dsh-knowledge) | 知识库与 RAG：分块 / 本地嵌入 / 混合检索 |
+| Jev 记忆 | [Towzai/dsh-memory-jev](https://github.com/Towzai/dsh-memory-jev) | 记忆插件：每次记忆读写皆由 TypeSafe Jev 类型判定 |
+| 分层记忆 | [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) | 分层智能体记忆：近期详细、远期精简、重要常驻 |
+| 上下文健康 | [donghangxunlang-cmd/dsh-attention-health](https://github.com/donghangxunlang-cmd/dsh-attention-health) | 上下文健康监测 + 内容退化守卫 + 零模型交接文档 |
+| 记忆评估 | [lizhiyao/oh-my-knowledge](https://github.com/lizhiyao/oh-my-knowledge) | OMK·证据驱动的记忆/提示/RAG/技能评估与可观测 |
+| 记忆宫殿 | [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) | 把 WorkBuddy 文件式记忆系统移植进 DSH |
+| 长期记忆 | [paulalesius/dsh-hindsight-advanced](https://github.com/paulalesius/dsh-hindsight-advanced) | 长期记忆：每轮自动召回 + 保留/回忆机制 |
+| 共享记忆 | [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) | 跨 Claude Code/Codex/Cursor 等 28+ 编码器的共享记忆 |
+| 记忆归档 | [vv5v5/dsh-memory-archive](https://github.com/vv5v5/dsh-memory-archive) | 会话记忆归档 + 提示词查看器 |
+| 工程记忆 | [yuyuyyyyyyyyyyyy/dsh-project-memory](https://github.com/yuyuyyyyyyyyyyyy/dsh-project-memory) | 跨会话工程记忆，按项目持久化 |
 
 ### 💬 会话管理 / 导入导出
 
@@ -214,6 +234,10 @@ dsh plugin --profile web add dsh-find-plugin
 | 消息撤回重编辑 | [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) | 最无感消息撤回/重编辑，兼容性强、设置丰富、现代化轻量 UI |
 | 会话归档检索 | [Ultronen/dsh-archived-chats](https://github.com/Ultronen/dsh-archived-chats) | 本地优先批量归档、全文检索、回收站与 ZIP 备份恢复，数据留在本机 |
 | 分支追问 | [sluminositys/dsh-nested-followups](https://github.com/sluminositys/dsh-nested-followups) | 从任意回答分支，任意深度继续分支，递归隔离追问 |
+| 消息删除 | [DDDMUC/dsh-delete-turn](https://github.com/DDDMUC/dsh-delete-turn) | 按消息删除：删单条用户消息 / 单步回复 / 整段 |
+| 编辑思维链 | [birew83538-oss/dsh-chat-thinking-editor](https://github.com/birew83538-oss/dsh-chat-thinking-editor) | 在对话里直接编辑任意 AI 消息正文与思维链（thinking） |
+| 会话标题 | [cq-guojia/dsh-session-title-pattern](https://github.com/cq-guojia/dsh-session-title-pattern) | 自动将会话标题统一为「日期｜类型｜主题」 |
+| 自动续跑 | [shengyvself/dsh-autoresume](https://github.com/shengyvself/dsh-autoresume) | 自动恢复 / 续跑中断的会话 |
 
 ### ✨ 提示词优化 / 润色
 
@@ -226,6 +250,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 提示词工具箱 | [FeatherHunter/dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) | 预制 + 自定义 prompt 模板，点击即插入当前输入框（常规 + 智能悬浮卡） |
 | 系统提示词覆写 | [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) | 覆写默认系统提示词、按模型切换提示词，自带设置面板 |
 | 一键增强+语音识别 | [Fishsb/dsh-prompt-enhancer](https://github.com/Fishsb/dsh-prompt-enhancer) | composer 一键增强（✨）+ 语音识别（云端/本地双引擎），服务异常一键重启 |
+| 预设/宏 | [bychv/dsh-preset-enhance](https://github.com/bychv/dsh-preset-enhance) | SillyTavern 预设模式 / 宏引擎 / 编辑器 |
 
 ### 🧭 导航 / 大纲 / 跳转（长会话必备）
 
@@ -237,6 +262,7 @@ dsh plugin --profile web add dsh-find-plugin
 | 提问索引 | [lijinhao315/dsh-question-index](https://github.com/lijinhao315/dsh-question-index) | 右侧你提过的问题列表 |
 | 命令面板（⌘K） | [0xsline/dsh-spotlight](https://github.com/0xsline/dsh-spotlight) | 键盘优先的命令面板，⌘K/Ctrl+K 搜原生命令、近期会话、UI 操作与插件设置 |
 | 对话树画布 | [RyanZeeee/dsh-chattree](https://github.com/RyanZeeee/dsh-chattree) | 把线性聊天变成可看可点的对话地图：每轮一个节点、每问长一枝 |
+| 章节导航 | [jolaaa999/dsh-section-nav](https://github.com/jolaaa999/dsh-section-nav) | 章节导航栏 + 本地书签 |
 
 ### ⌨️ 终端 TUI / 全屏界面
 
@@ -298,6 +324,11 @@ dsh plugin --profile web add dsh-find-plugin
 | 远程授权中转 | [nicecx/dsh-relay](https://github.com/nicecx/dsh-relay) | 把 approval/ask_user_question 按编号推到 iMessage/Email/微信等通道，通道内批准/拒绝 |
 | 三方协作协议 | [victormshan/dsh-web-relay](https://github.com/victormshan/dsh-web-relay) | 用户/主 agent/外部 AI 三方协作协议 + 五级审核链（Gemini→claude-code→dialog→manual）+ 无介入续跑 |
 | MCP 管理台 | [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) | 官方 MCP 客户端管理控制台（/mcp 命令） |
+| AGENTS 编辑 | [Bay-Zeddie/dsh-agent-instructions](https://github.com/Bay-Zeddie/dsh-agent-instructions) | 在 Web 设置页编辑原生 AGENTS.md：分层可点选编辑、三种生效范围 |
+| skill/MCP 管理 | [Fishquito7/dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) | Web 界面 skill 与 MCP 管理面板 |
+| 导入 Copilot 配置 | [NEVSTOP-LAB/dsh-import-copilot-files](https://github.com/NEVSTOP-LAB/dsh-import-copilot-files) | 导入 VSCode/Copilot AI 配置（copilot-instructions.md 等） |
+| 插件管理面板 | [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub) | 插件管理面板：一键启停 + dsh-plugin 市场 + 自定义索引，带详情与一键安装 |
+| Git worktree | [wloops/dsh-git-worktree](https://github.com/wloops/dsh-git-worktree) | Git worktree 会话目标：隔离任务会话、可回退 |
 
 ### 🔒 安全与权限
 
@@ -310,6 +341,10 @@ dsh plugin --profile web add dsh-find-plugin
 | 第二模型安全审批 | [PerryLink/dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) | 只读评审子代理在审批链上判 allow/deny，默认 fail-closed，per-tool 策略可配 |
 | 权限规则 | [PerryLink/dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) | Claude Code 风声明式权限规则（有序放行） |
 | 注入防御 | [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) | 提示注入/越狱/密钥泄露防御（Aho-Corasick 等） |
+| 执行前守卫 | [7starsseeker/dsh-jev-guard](https://github.com/7starsseeker/dsh-jev-guard) | 执行前安全阀门：bash/pwsh 真正执行前经静态规则 + Jev 语义判定，破坏性操作可允许/修正/拦截 |
+| 权限控制 | [MrWeiCodes/dsh-permgate](https://github.com/MrWeiCodes/dsh-permgate) | 为 DSH 提供的细粒度权限控制插件 |
+| 确认守卫 | [bbaz123/dsh-confirmation-resolution](https://github.com/bbaz123/dsh-confirmation-resolution) | 任务后确认决策守卫：平衡输出质量与风险 |
+| 契约检查 | [imtokenxinluo/dsh-contract-check](https://github.com/imtokenxinluo/dsh-contract-check) | DSH 插件零 token 契约检查：校验 render() / session-event 词汇 |
 
 ### 🤖 智能体 / 研究 / 创作
 
@@ -325,6 +360,12 @@ dsh plugin --profile web add dsh-find-plugin
 | 可验证研究报告 | [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) | 内容寻址证据链的可验证研究报告引擎 |
 | 网文体检 | [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) | 本地章节体检：16 工具句式/情感/风格分析，本地模型零 API |
 | 持久 Agent 团队 | [wowyuarm/dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) | 不重置的持久成员（Members）多 agent 团队 |
+| 子代理接入 | [2025Bigeye/dsh-nanobot-subagent-link](https://github.com/2025Bigeye/dsh-nanobot-subagent-link) | 把 Nanobot 实例接入 DSH，启用子代理能力 |
+| 认知预设 | [AnonyJcy/dsh-j-space](https://github.com/AnonyJcy/dsh-j-space) | J-Space 认知套件 SV1：原生 DSH 智能体预设 + 独立 Cordis 插件，含深层推理路由与持久控制器 |
+| 圆桌会议 | [Fishsb/dsh-plugin-roundtable](https://github.com/Fishsb/dsh-plugin-roundtable) | 圆桌会议：把一次会话变可视化、可辩论、可拍板的专家圆桌（含红队评审） |
+| 社交约伴 | [liudejua27-blip/fitmeet-dsh-plugin](https://github.com/liudejua27-blip/fitmeet-dsh-plugin) | FitMeet：找同好/约球友/找人帮忙的社交插件 |
+| 无人值守控制台 | [picsky/dsh-pocket-console](https://github.com/picsky/dsh-pocket-console) | 无人值守控制台：只把卡住的决策交给你 |
+| 画布创作 | [wild-River2016/dsh-canvas-xiaohe](https://github.com/wild-River2016/dsh-canvas-xiaohe) | 小禾画布 AI 创作助手 |
 
 ### 📄 文档与渲染
 
@@ -361,6 +402,10 @@ dsh plugin --profile web add dsh-find-plugin
 | 无人值守任务队列 | [alin-ever/dsh-plugin-autoqueue](https://github.com/alin-ever/dsh-plugin-autoqueue) | 丢 .md 进收件箱 → AI 自动执行 → 产出报告 |
 | 工作流 JIT 编译 | [fly3366/DeepJIT](https://github.com/fly3366/DeepJIT) | 把重复的 agent 工作流编译成 hot skills 与 flow 模板 |
 | 自主多模型协同调度 | [beijingwahw/dsh-proactive](https://github.com/beijingwahw/dsh-proactive) | 主动感知、自主决策、多模型并行、质量反思自愈、经验沉淀进化 |
+| 自进化升级 | [Across2005/harness-self-evolution-plugin](https://github.com/Across2005/harness-self-evolution-plugin) | 全盘自进化升级：扫描全部插件、监控性能、生成进化提案并协同升级（MCP Server） |
+| 任务进度 | [Rice00/dsh-job-progress](https://github.com/Rice00/dsh-job-progress) | 长时后台任务实时进度：可拖拽浮动面板 |
+| 会话报告 | [ciceroyang/dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio) | 把会话转交付物报告（日报/周报/交接/成文） |
+| 双向同步 | [dpskk2/dsh-sync-plugin](https://github.com/dpskk2/dsh-sync-plugin) | 通过私有 GitHub 仓库在电脑间双向同步会话/附件/工作区/设置 |
 
 ### 🔌 身份与通信 / 桥接
 
@@ -376,6 +421,10 @@ dsh plugin --profile web add dsh-find-plugin
 | 订阅代用模型 | [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) | 用 ChatGPT(Codex)/Claude/Grok 订阅作为 DSH 模型源（OAuth） |
 | Codex 订阅接入 | [WSL043/dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) | 通过 OAuth 用 ChatGPT/Codex 订阅接入 DSH，含模型路由 |
 | OpenCode 免费模型 | [FishBottle7/opencode2dsh](https://github.com/FishBottle7/opencode2dsh) | 免费 OpenCode Zen 模型接入 DSH（Free LLM API） |
+| ClineBot 接入 | [GooDAnDReaDY/dsh-clinebot](https://github.com/GooDAnDReaDY/dsh-clinebot) | 原生 ClineBot / ClinePass provider 伴侣插件 |
+| 模型同步 | [GooDAnDReaDY/dsh-model-sync](https://github.com/GooDAnDReaDY/dsh-model-sync) | 动态模型目录同步 + 自动余额监控（DeepSeek） |
+| 局域网暴露模型 | [Saretheya/dsh-lantern](https://github.com/Saretheya/dsh-lantern) | 把本机 DSH 模型以 OpenAI/Anthropic 兼容方式暴露到局域网 |
+| 模型扩展 | [lovezi0/dsh-model-extension](https://github.com/lovezi0/dsh-model-extension) | 解决 DSH 自定义模型提供商无法设置推理模式与多模态的问题 |
 
 ### 🧑‍💻 开发 / 运行时 / Profile
 
@@ -390,6 +439,13 @@ dsh plugin --profile web add dsh-find-plugin
 | 子代理模型路由 | [NinjaSln-labs/dsh-subagent-router](https://github.com/NinjaSln-labs/dsh-subagent-router) | 委派子代理时按 provider/model/max_tokens 路由，支持 model:"auto" 可审计策略 |
 | 推理强度编辑 | [HaoyueQin/dsh-better-reasoning-effort](https://github.com/HaoyueQin/dsh-better-reasoning-effort) | 第三方模型推理强度编辑（按模型可调） |
 | 推理默认与网关 | [hytime/dsh-thinking-effort](https://github.com/hytime/dsh-thinking-effort) | 推理强度默认值与协议感知网关 |
+| 适配 opencode | [Duskriver/dsh-opencode-go](https://github.com/Duskriver/dsh-opencode-go) | 让 DSH 适配 opencode-go 套餐 |
+| 真实 bash | [Fishquito7/dsh-gitbash](https://github.com/Fishquito7/dsh-gitbash) | 给 DSH 真实 bash 工具（Windows）：直接调 bash，免 pwsh 转义 |
+| 发布镜像 | [KasenRi/dsh-orbit](https://github.com/KasenRi/dsh-orbit) | 可安装发布镜像（原项目 KasenRi/dsh-orbit） |
+| 日志查询 | [anyuer678/dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) | 用中文自然语言时间查询本地日志文件 |
+| Jev 决策 | [kaijia323/dsh-plugin-jev](https://github.com/kaijia323/dsh-plugin-jev) | TypeSafe Jev（系统一决策模型）原生 jev_decide 工具插件 |
+| 上下文压缩 | [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) | 通用上下文压缩代理（面向所有 AI 编码代理） |
+| Codex 编码 | [shuind/dsh-codex-harness](https://github.com/shuind/dsh-codex-harness) | Codex 形态编码工具（exec/apply_patch/view_image） |
 
 ---
 
@@ -400,26 +456,26 @@ DSH 生态目前大致按 22 个官方分类组织。下表是导航地图，括
 | 分类 | 关注点 | 代表插件 |
 |------|--------|----------|
 | 🧭 AGI 架构探索 | 白箱/世界模型 | [FuRongJun-1999/dsh-memory](https://github.com/FuRongJun-1999/dsh-memory) |
-| 🎨 UI 增强 | 界面/布局/交互/中文 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dawnliming/dsh-chinese-mode](https://github.com/dawnliming/dsh-chinese-mode) · [zjl1989-li/dsh-harness-zh-cn](https://github.com/zjl1989-li/dsh-harness-zh-cn) · [nishuoyang/dsh-wallpaper-bg](https://github.com/nishuoyang/dsh-wallpaper-bg) · [TQSY114514/dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) · [WLV-ZEDD/dsh-btw](https://github.com/WLV-ZEDD/dsh-btw) · [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) · [citisen/dsh-font](https://github.com/citisen/dsh-font) · [fangwen9527/dsh-composer-ux](https://github.com/fangwen9527/dsh-composer-ux) |
-| 💰 用量与计费 | 余额/成本 | [GeekRicardo/dsh-balance](https://github.com/GeekRicardo/dsh-balance) · [kenz1117/dsh-ui-usage-billing](https://github.com/kenz1117/dsh-ui-usage-billing) |
-| 🎭 主题与外观 | 皮肤/壁纸 | [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) · [TQSY114514/dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) · [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) · [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) · [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield) · [niiang/dsh-kimino-theme](https://github.com/niiang/dsh-kimino-theme) |
-| 🔌 模型与账号接入 | 模型/Provider | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) · [wss534857356/dsh-plugin-codex](https://github.com/wss534857356/dsh-plugin-codex) · [WNJXYK/dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) · [CARVIN94/dsh-router](https://github.com/CARVIN94/dsh-router) · [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) · [WSL043/dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) · [FishBottle7/opencode2dsh](https://github.com/FishBottle7/opencode2dsh) |
+| 🎨 UI 增强 | 界面/布局/交互/中文 | [omdsh-dev/DSH-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) · [dawnliming/dsh-chinese-mode](https://github.com/dawnliming/dsh-chinese-mode) · [zjl1989-li/dsh-harness-zh-cn](https://github.com/zjl1989-li/dsh-harness-zh-cn) · [nishuoyang/dsh-wallpaper-bg](https://github.com/nishuoyang/dsh-wallpaper-bg) · [TQSY114514/dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) · [WLV-ZEDD/dsh-btw](https://github.com/WLV-ZEDD/dsh-btw) · [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) · [citisen/dsh-font](https://github.com/citisen/dsh-font) · [fangwen9527/dsh-composer-ux](https://github.com/fangwen9527/dsh-composer-ux) · [LyaxZ/dsh-fonttune](https://github.com/LyaxZ/dsh-fonttune)|
+| 💰 用量与计费 | 余额/成本 | [GeekRicardo/dsh-balance](https://github.com/GeekRicardo/dsh-balance) · [kenz1117/dsh-ui-usage-billing](https://github.com/kenz1117/dsh-ui-usage-billing) · [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel)|
+| 🎭 主题与外观 | 皮肤/壁纸 | [EternalNight996/dsh-theme](https://github.com/EternalNight996/dsh-theme) · [TQSY114514/dsh-ui-appearance](https://github.com/TQSY114514/dsh-ui-appearance) · [exoticknight/dsh-theme-eink-retro](https://github.com/exoticknight/dsh-theme-eink-retro) · [elysia395/dsh-wallpaper-engine](https://github.com/elysia395/dsh-wallpaper-engine) · [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield) · [niiang/dsh-kimino-theme](https://github.com/niiang/dsh-kimino-theme) · [Nwflower/dsh-claude-style](https://github.com/Nwflower/dsh-claude-style) · [XHR666/dsh-mpkg-wallpaper](https://github.com/XHR666/dsh-mpkg-wallpaper)|
+| 🔌 模型与账号接入 | 模型/Provider | [franksong2702/dsh-codex-connect](https://github.com/franksong2702/dsh-codex-connect) · [wss534857356/dsh-plugin-codex](https://github.com/wss534857356/dsh-plugin-codex) · [WNJXYK/dsh-codex-oauth](https://github.com/WNJXYK/dsh-codex-oauth) · [CARVIN94/dsh-router](https://github.com/CARVIN94/dsh-router) · [V1ki/dsh-plugin-subscriptions](https://github.com/V1ki/dsh-plugin-subscriptions) · [WSL043/dsh-codex-subscription](https://github.com/WSL043/dsh-codex-subscription) · [FishBottle7/opencode2dsh](https://github.com/FishBottle7/opencode2dsh) · [GooDAnDReaDY/dsh-clinebot](https://github.com/GooDAnDReaDY/dsh-clinebot) · [GooDAnDReaDY/dsh-model-sync](https://github.com/GooDAnDReaDY/dsh-model-sync) · [Saretheya/dsh-lantern](https://github.com/Saretheya/dsh-lantern) · [lovezi0/dsh-model-extension](https://github.com/lovezi0/dsh-model-extension)|
 | 🆔 身份与通信 | 账号/IM 接入 | [lanbaolu/dsh-wechat-bridge](https://github.com/lanbaolu/dsh-wechat-bridge) · [ZhuoSir/dsh-chatops](https://github.com/ZhuoSir/dsh-chatops) · [tencent-connect/dsh-qqbot](https://github.com/tencent-connect/dsh-qqbot) · [tkwkeven/dsh-lark-all](https://github.com/tkwkeven/dsh-lark-all) · [gcry13067381632-jpg/dsh-qqbot](https://github.com/gcry13067381632-jpg/dsh-qqbot) · [xmanrui/dsh-im](https://github.com/xmanrui/dsh-im) |
-| 💬 会话与消息 | 会话管理 | ~~[urzeye/dsh-outline](https://github.com/urzeye/dsh-outline)~~（已失效） · [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) · [RyanZeeee/dsh-chattree](https://github.com/RyanZeeee/dsh-chattree) · [kiligzzz/dsh-session-archive](https://github.com/kiligzzz/dsh-session-archive) · [yamingmou/dsh-retrace](https://github.com/yamingmou/dsh-retrace) · [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) · [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) · [Ultronen/dsh-archived-chats](https://github.com/Ultronen/dsh-archived-chats) · [sluminositys/dsh-nested-followups](https://github.com/sluminositys/dsh-nested-followups) |
-| 🧠 记忆 | 长期记忆 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) · [kenz1117/dsh-engram](https://github.com/kenz1117/dsh-engram) · [shaomingbo/dsh-codex-compaction](https://github.com/shaomingbo/dsh-codex-compaction) · [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) · [Dingpenghui-good/dsh-obsidian-sync](https://github.com/Dingpenghui-good/dsh-obsidian-sync) · [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) |
-| 🛠️ 工具与能力 | 能力扩展 | [superdesigndev/treg](https://github.com/superdesigndev/treg) · [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) · [whiteguo233/dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) · [br1nosense/dsh-vision-solution](https://github.com/br1nosense/dsh-vision-solution) · ~~[shinzarou-eng/dsh-codebase-chat](https://github.com/shinzarou-eng/dsh-codebase-chat)~~（已失效） · [whiskey1993/dsh-thermal-monitor](https://github.com/whiskey1993/dsh-thermal-monitor) · [ZBber-lab/cau-portal-open](https://github.com/ZBber-lab/cau-portal-open) · [FeatherHunter/dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) · [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) · [TEGONG00/dsh-plugin-browser](https://github.com/TEGONG00/dsh-plugin-browser) · [beijingwahw/dsh-proactive](https://github.com/beijingwahw/dsh-proactive) · [ManoloRemiddi/DSH-Metafolder-Plugin](https://github.com/ManoloRemiddi/DSH-Metafolder-Plugin) · [fhidalgodev/dsh-odoo-sdd](https://github.com/fhidalgodev/dsh-odoo-sdd) · [NoodleStormno/dsh-plugin-tic80](https://github.com/NoodleStormno/dsh-plugin-tic80) · [MichengAI/dsh-codex-ui](https://github.com/MichengAI/dsh-codex-ui) · [caoyiwei850/dsh-ssh-ops](https://github.com/caoyiwei850/dsh-ssh-ops) · [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [Fishsb/dsh-prompt-enhancer](https://github.com/Fishsb/dsh-prompt-enhancer) · [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) · [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) · [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) · [wowyuarm/dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) |
+| 💬 会话与消息 | 会话管理 | ~~[urzeye/dsh-outline](https://github.com/urzeye/dsh-outline)~~（已失效） · [PerryLink/dsh-session-pin](https://github.com/PerryLink/dsh-session-pin) · [RyanZeeee/dsh-chattree](https://github.com/RyanZeeee/dsh-chattree) · [kiligzzz/dsh-session-archive](https://github.com/kiligzzz/dsh-session-archive) · [yamingmou/dsh-retrace](https://github.com/yamingmou/dsh-retrace) · [Nwflower/dsh-chat-import](https://github.com/Nwflower/dsh-chat-import) · [Renzic-Stone/DSH-EasyRewrite](https://github.com/Renzic-Stone/DSH-EasyRewrite) · [Ultronen/dsh-archived-chats](https://github.com/Ultronen/dsh-archived-chats) · [sluminositys/dsh-nested-followups](https://github.com/sluminositys/dsh-nested-followups) · [DDDMUC/dsh-delete-turn](https://github.com/DDDMUC/dsh-delete-turn) · [birew83538-oss/dsh-chat-thinking-editor](https://github.com/birew83538-oss/dsh-chat-thinking-editor) · [cq-guojia/dsh-session-title-pattern](https://github.com/cq-guojia/dsh-session-title-pattern) · [shengyvself/dsh-autoresume](https://github.com/shengyvself/dsh-autoresume)|
+| 🧠 记忆 | 长期记忆 | [dygin/dsh-recover-context](https://github.com/dygin/dsh-recover-context) · [kenz1117/dsh-engram](https://github.com/kenz1117/dsh-engram) · [shaomingbo/dsh-codex-compaction](https://github.com/shaomingbo/dsh-codex-compaction) · [Aik358/dsh-auto-memory](https://github.com/Aik358/dsh-auto-memory) · [Dingpenghui-good/dsh-obsidian-sync](https://github.com/Dingpenghui-good/dsh-obsidian-sync) · [PerryLink/dsh-memento](https://github.com/PerryLink/dsh-memento) · [00080000/dsh-project-memory](https://github.com/00080000/dsh-project-memory) · [AkinoHaruka/companion-memory](https://github.com/AkinoHaruka/companion-memory) · [EPCN-fla/dsh-observational-memory](https://github.com/EPCN-fla/dsh-observational-memory) · [Fishsb/dsh-shoucang-memory](https://github.com/Fishsb/dsh-shoucang-memory) · [Soren-ABT/dsh-knowledge](https://github.com/Soren-ABT/dsh-knowledge) · [Towzai/dsh-memory-jev](https://github.com/Towzai/dsh-memory-jev) · [diqierjia/StrataGate-AgentMemory](https://github.com/diqierjia/StrataGate-AgentMemory) · [donghangxunlang-cmd/dsh-attention-health](https://github.com/donghangxunlang-cmd/dsh-attention-health) · [lizhiyao/oh-my-knowledge](https://github.com/lizhiyao/oh-my-knowledge) · [lovezi0/dsh-memory-palace](https://github.com/lovezi0/dsh-memory-palace) · [paulalesius/dsh-hindsight-advanced](https://github.com/paulalesius/dsh-hindsight-advanced) · [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) · [vv5v5/dsh-memory-archive](https://github.com/vv5v5/dsh-memory-archive) · [yuyuyyyyyyyyyyyy/dsh-project-memory](https://github.com/yuyuyyyyyyyyyyyy/dsh-project-memory)|
+| 🛠️ 工具与能力 | 能力扩展 | [superdesigndev/treg](https://github.com/superdesigndev/treg) · [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) · [whiteguo233/dsh-openbiliclaw](https://github.com/whiteguo233/dsh-openbiliclaw) · [br1nosense/dsh-vision-solution](https://github.com/br1nosense/dsh-vision-solution) · ~~[shinzarou-eng/dsh-codebase-chat](https://github.com/shinzarou-eng/dsh-codebase-chat)~~（已失效） · [whiskey1993/dsh-thermal-monitor](https://github.com/whiskey1993/dsh-thermal-monitor) · [ZBber-lab/cau-portal-open](https://github.com/ZBber-lab/cau-portal-open) · [FeatherHunter/dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) · [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) · [TEGONG00/dsh-plugin-browser](https://github.com/TEGONG00/dsh-plugin-browser) · [beijingwahw/dsh-proactive](https://github.com/beijingwahw/dsh-proactive) · [ManoloRemiddi/DSH-Metafolder-Plugin](https://github.com/ManoloRemiddi/DSH-Metafolder-Plugin) · [fhidalgodev/dsh-odoo-sdd](https://github.com/fhidalgodev/dsh-odoo-sdd) · [NoodleStormno/dsh-plugin-tic80](https://github.com/NoodleStormno/dsh-plugin-tic80) · [MichengAI/dsh-codex-ui](https://github.com/MichengAI/dsh-codex-ui) · [caoyiwei850/dsh-ssh-ops](https://github.com/caoyiwei850/dsh-ssh-ops) · [huiliyi37/dsh-tianshu-tui](https://github.com/huiliyi37/dsh-tianshu-tui) · [Fishsb/dsh-prompt-enhancer](https://github.com/Fishsb/dsh-prompt-enhancer) · [PerryLink/dsh-mcp-panel](https://github.com/PerryLink/dsh-mcp-panel) · [PerryLink/dsh-research-report](https://github.com/PerryLink/dsh-research-report) · [siweina/dsh-novel-writer](https://github.com/siweina/dsh-novel-writer) · [wowyuarm/dsh-agent-team](https://github.com/wowyuarm/dsh-agent-team) · [Bay-Zeddie/dsh-agent-instructions](https://github.com/Bay-Zeddie/dsh-agent-instructions) · [Chance722/dsh-inbox](https://github.com/Chance722/dsh-inbox) · [Fishsb/dsh-plugin-roundtable](https://github.com/Fishsb/dsh-plugin-roundtable) · [NEVSTOP-LAB/dsh-import-copilot-files](https://github.com/NEVSTOP-LAB/dsh-import-copilot-files) · [Rice00/dsh-job-progress](https://github.com/Rice00/dsh-job-progress) · [bychv/dsh-preset-enhance](https://github.com/bychv/dsh-preset-enhance) · [dpskk2/dsh-sync-plugin](https://github.com/dpskk2/dsh-sync-plugin) · [liudejua27-blip/fitmeet-dsh-plugin](https://github.com/liudejua27-blip/fitmeet-dsh-plugin) · [picsky/dsh-pocket-console](https://github.com/picsky/dsh-pocket-console) · [wild-River2016/dsh-canvas-xiaohe](https://github.com/wild-River2016/dsh-canvas-xiaohe)|
 | 🌐 浏览器与网页 | 网页交互 | [maxwell-feng/dsh-searxng-web](https://github.com/maxwell-feng/dsh-searxng-web) · [TEGONG00/dsh-plugin-browser](https://github.com/TEGONG00/dsh-plugin-browser) · [ArcaneOrion/dsh-tavily-web](https://github.com/ArcaneOrion/dsh-tavily-web) · [2672243194/dsh-read-url](https://github.com/2672243194/dsh-read-url) |
 | 🖼️ 视觉与多模态 | 图片/视频 | [Nagi-ovo/dsh-visualize](https://github.com/Nagi-ovo/dsh-visualize) · [dsh-vision-router](https://github.com/ysr666/dsh-vision-router) · [shanliuling/dsh-image-gen](https://github.com/shanliuling/dsh-image-gen) · [liustack/modlens](https://github.com/liustack/modlens) · [anionex/dsh-vision-toolkit](https://github.com/anionex/dsh-vision-toolkit) · [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) · [dickpy/dsh-imagegen](https://github.com/dickpy/dsh-imagegen) · [dundunhan/dsh-video-lens](https://github.com/dundunhan/dsh-video-lens) · [oil-oil/dsh-vision](https://github.com/oil-oil/dsh-vision) |
 | 🎙️ 语音与音频 | 语音输入 | [qishuilalala/dsh-voice-mode](https://github.com/qishuilalala/dsh-voice-mode) · [1624318455/dsh-plugin-tts](https://github.com/1624318455/dsh-plugin-tts) |
-| 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) · [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) · [wjx-ai/dsh-md-reader](https://github.com/wjx-ai/dsh-md-reader) · [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) · [jing-hy/picturereader](https://github.com/jing-hy/picturereader) |
+| 📄 文档与渲染 | 文档/Markdown | [jiuyuechuwuhao/dsh-canvas-preview](https://github.com/jiuyuechuwuhao/dsh-canvas-preview) · [1692775560/dsh-Mimir-Academic-research](https://github.com/1692775560/dsh-Mimir-Academic-research) · [wjx-ai/dsh-md-reader](https://github.com/wjx-ai/dsh-md-reader) · [dream-num/dsh-univer-office](https://github.com/dream-num/dsh-univer-office) · [jing-hy/picturereader](https://github.com/jing-hy/picturereader) · [ciceroyang/dsh-report-studio](https://github.com/ciceroyang/dsh-report-studio)|
 | 🧩 技能包 | Skill | [lcthe/dsh-skills-hub](https://github.com/lcthe/dsh-skills-hub) · [WODE25500/dsh-skillopt](https://github.com/WODE25500/dsh-skillopt) · [cheshireez/dsh-skill-hub](https://github.com/cheshireez/dsh-skill-hub) |
-| 🔁 工作流与自动化 | 定时/重复/规划 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) · [ztl34245881-commits/dsh-task-planner](https://github.com/ztl34245881-commits/dsh-task-planner) · [beijingwahw/dsh-proactive](https://github.com/beijingwahw/dsh-proactive) |
-| 🔀 Git 与代码评审 | Git | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) |
-| 🔔 通知与集成 | 提醒/推送 | [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) |
-| 🧑‍💻 开发与运行时 | 开发/运行时/性能 | [tt-a1i/archify](https://github.com/tt-a1i/archify) · [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) · [Electricitysheep/dsh-tool-turbo](https://github.com/Electricitysheep/dsh-tool-turbo) · [NinjaSln-labs/dsh-subagent-router](https://github.com/NinjaSln-labs/dsh-subagent-router) · [HaoyueQin/dsh-better-reasoning-effort](https://github.com/HaoyueQin/dsh-better-reasoning-effort) · [hytime/dsh-thinking-effort](https://github.com/hytime/dsh-thinking-effort) · [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) · [xiajiajun516/dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) |
-| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) · [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) · [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) · [ylwl1997/noatmark-dsh-plugin](https://github.com/ylwl1997/noatmark-dsh-plugin) · [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) · [GoPlusSecurity/agentguard](https://github.com/GoPlusSecurity/agentguard) · [PerryLink/dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) · [PerryLink/dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) · [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) |
+| 🔁 工作流与自动化 | 定时/重复/规划 | [magicOF2/dsh-schedule](https://github.com/magicOF2/dsh-schedule) · [ztl34245881-commits/dsh-task-planner](https://github.com/ztl34245881-commits/dsh-task-planner) · [beijingwahw/dsh-proactive](https://github.com/beijingwahw/dsh-proactive) · [Across2005/harness-self-evolution-plugin](https://github.com/Across2005/harness-self-evolution-plugin)|
+| 🔀 Git 与代码评审 | Git | [loadingvx/deepseek-harness-workbench-plugin](https://github.com/loadingvx/deepseek-harness-workbench-plugin) · [KannaKuron/dsh-ide-git](https://github.com/KannaKuron/dsh-ide-git) · [wloops/dsh-git-worktree](https://github.com/wloops/dsh-git-worktree)|
+| 🔔 通知与集成 | 提醒/推送 | [Phant0Meow/dsh-meow-smooth](https://github.com/Phant0Meow/dsh-meow-smooth) · [idoall/dsh-notify](https://github.com/idoall/dsh-notify) · [x102201/dsh-helper-plugin-notify-away](https://github.com/x102201/dsh-helper-plugin-notify-away)|
+| 🧑‍💻 开发与运行时 | 开发/运行时/性能 | [tt-a1i/archify](https://github.com/tt-a1i/archify) · [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) · [sandbaseai/sandbase-harness](https://github.com/sandbaseai/sandbase-harness) · [Electricitysheep/dsh-tool-turbo](https://github.com/Electricitysheep/dsh-tool-turbo) · [NinjaSln-labs/dsh-subagent-router](https://github.com/NinjaSln-labs/dsh-subagent-router) · [HaoyueQin/dsh-better-reasoning-effort](https://github.com/HaoyueQin/dsh-better-reasoning-effort) · [hytime/dsh-thinking-effort](https://github.com/hytime/dsh-thinking-effort) · [6Mikao9/dsh-wsl-workspace](https://github.com/6Mikao9/dsh-wsl-workspace) · [xiajiajun516/dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) · [2025Bigeye/dsh-nanobot-subagent-link](https://github.com/2025Bigeye/dsh-nanobot-subagent-link) · [AnonyJcy/dsh-j-space](https://github.com/AnonyJcy/dsh-j-space) · [Duskriver/dsh-opencode-go](https://github.com/Duskriver/dsh-opencode-go) · [Fishquito7/dsh-gitbash](https://github.com/Fishquito7/dsh-gitbash) · [KasenRi/dsh-orbit](https://github.com/KasenRi/dsh-orbit) · [anyuer678/dsh-logtimeline](https://github.com/anyuer678/dsh-logtimeline) · [kaijia323/dsh-plugin-jev](https://github.com/kaijia323/dsh-plugin-jev) · [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context) · [shuind/dsh-codex-harness](https://github.com/shuind/dsh-codex-harness)|
+| 🔒 安全与权限 | 权限/审计 | [cuddly-guacamole/dsh-auto-approval-llm](https://github.com/cuddly-guacamole/dsh-auto-approval-llm) · [PerryLink/dsh-skill-pack-security](https://github.com/PerryLink/dsh-skill-pack-security) · [dhicoc/dsh-reverse-skill](https://github.com/dhicoc/dsh-reverse-skill) · [ylwl1997/noatmark-dsh-plugin](https://github.com/ylwl1997/noatmark-dsh-plugin) · [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) · [GoPlusSecurity/agentguard](https://github.com/GoPlusSecurity/agentguard) · [PerryLink/dsh-auto-review](https://github.com/PerryLink/dsh-auto-review) · [PerryLink/dsh-permission-rules](https://github.com/PerryLink/dsh-permission-rules) · [PerryLink/dsh-defend](https://github.com/PerryLink/dsh-defend) · [7starsseeker/dsh-jev-guard](https://github.com/7starsseeker/dsh-jev-guard) · [MrWeiCodes/dsh-permgate](https://github.com/MrWeiCodes/dsh-permgate) · [bbaz123/dsh-confirmation-resolution](https://github.com/bbaz123/dsh-confirmation-resolution) · [imtokenxinluo/dsh-contract-check](https://github.com/imtokenxinluo/dsh-contract-check)|
 | 📱 远程与移动端 | 移动/远程 | [TecFancy/dsh-mobile](https://github.com/TecFancy/dsh-mobile) · [saya-ch/dsh-mobile](https://github.com/saya-ch/dsh-mobile) · [advance-lion/dsh-lan-link](https://github.com/advance-lion/dsh-lan-link) · [Clarklevis1995/dsh-plugin-mobile-gateway](https://github.com/Clarklevis1995/dsh-plugin-mobile-gateway) · [zexadev/dsh-tether](https://github.com/zexadev/dsh-tether) · [liguobao/ds-harness-remote](https://github.com/liguobao/ds-harness-remote) · [mexiaosqwq/dsh-web-mobile](https://github.com/mexiaosqwq/dsh-web-mobile) |
-| 🛒 插件市场与管理 | 市场/管理 | [dsh-market](https://github.com/dsh-market/dsh-market) · [dshfind](https://github.com/hikariming/dshfind) |
+| 🛒 插件市场与管理 | 市场/管理 | [dsh-market](https://github.com/dsh-market/dsh-market) · [dshfind](https://github.com/hikariming/dshfind) · [Fishquito7/dsh-skill-mcp-panel](https://github.com/Fishquito7/dsh-skill-mcp-panel) · [Noob-stupid/dsh-plugin-gating-hub](https://github.com/Noob-stupid/dsh-plugin-gating-hub)|
 | 🎮 娱乐 | 趣味 | [cookiesheep/whale-on-desk](https://github.com/cookiesheep/whale-on-desk) · ~~[weibaohui/dsh-xiuxian](https://github.com/weibaohui/dsh-xiuxian)~~（已失效） |
 
 > 上表中标注「待补充，欢迎共建」的分类，代表插件暂未收入本手册——欢迎在 Issue/PR 里补充你用过的同类插件，让它更完整。
