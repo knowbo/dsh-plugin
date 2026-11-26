@@ -125,7 +125,7 @@ def has_dsh_bundle(pkg):
 # We don't import urllib.parse at top; add it
 import urllib.parse
 
-since = "2026-11-24"
+since = "2026-11-25"
 topics = ["dsh-plugin", "deepseek-harness", "deepseek-harness-plugin"]
 found = {}  # full_name -> (desc, stars)
 raw_total = 0
